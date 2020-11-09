@@ -1,15 +1,14 @@
-# KURSABLAUF C SHARP, _NAME_
+# KURSABLAUF C SHARP, VADZIM
 
 ## M00 | WARMING UP
 
-- [ ] Folien: Greeter
-- [ ] Link: [VS homepage](https://visualstudio.microsoft.com/de/)
-- [ ] Folien: VS > Getting Started
-- [ ] Folien: VS > Projects & Solutions
-- [ ] Spicker: [vs-shortcuts](VS-SHORTCUTS.md)
-- [ ] Folien: Git > Getting Started
-- [ ] Spicker: [git-commands](GIT-COMMANDS.md)
-- [ ] [commit]()
+- [x] Folien: Greeter
+- [x] Link: [VS homepage](https://visualstudio.microsoft.com/de/)
+- [x] Folien: VS > Getting Started
+- [x] Folien: VS > Projects & Solutions
+- [x] Spicker: [vs-shortcuts](/SPICKER/SHORTCUTS-VS.md)
+- [x] [commit]()
+<!-- - [ ] Folien: Git > Getting Started -->
 
 VS Settings: Tools > Options > General > Color Theme
 
