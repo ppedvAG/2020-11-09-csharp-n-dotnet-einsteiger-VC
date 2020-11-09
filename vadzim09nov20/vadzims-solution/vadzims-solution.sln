@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M04-Demo-Numbers", "M04-Dem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M04-UE-Mini-Rechner", "M04-UE-Mini-Rechner\M04-UE-Mini-Rechner.csproj", "{7571A31C-57AF-4AC4-BF12-7E2BF677D4EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M05-Demo-Conditions", "M05-Demo-Conditions\M05-Demo-Conditions.csproj", "{10F11A03-AEE5-4EE2-9407-6857E5AD3C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M06-UE-Zahlenratespiel", "M06-UE-Zahlenratespiel\M06-UE-Zahlenratespiel.csproj", "{61286B19-4E4A-410D-B1FF-19A1F1313F37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{7571A31C-57AF-4AC4-BF12-7E2BF677D4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7571A31C-57AF-4AC4-BF12-7E2BF677D4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7571A31C-57AF-4AC4-BF12-7E2BF677D4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F11A03-AEE5-4EE2-9407-6857E5AD3C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F11A03-AEE5-4EE2-9407-6857E5AD3C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F11A03-AEE5-4EE2-9407-6857E5AD3C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F11A03-AEE5-4EE2-9407-6857E5AD3C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61286B19-4E4A-410D-B1FF-19A1F1313F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61286B19-4E4A-410D-B1FF-19A1F1313F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61286B19-4E4A-410D-B1FF-19A1F1313F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61286B19-4E4A-410D-B1FF-19A1F1313F37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

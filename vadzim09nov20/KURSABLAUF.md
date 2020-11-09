@@ -55,11 +55,10 @@ VS Settings: sln props > startup projects > current
 - [x] Folien: C# > Handling Numbers [numbers](vadzims-solution/M04-Demo-Numbers/DNumbers.cs)
 - [x] Parsing & Casting
 - [x] Übung: [MiniRechner](vadzims-solution/M04-UE-Mini-Rechner/URechner.cs)
-- [x] [commit]()
+- [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/89afe0d4ff4a2faaebb4d8075b946439f9f5552b)
 <!-- - [ ] Demo: [int](vadzims-solution/Demo-int/Dint.cs)
 - [ ] Demo: [double](vadzims-solution/Demo-double/Ddouble.cs)
 -->
-<!--
 
 ---
 
@@ -75,6 +74,9 @@ VS Settings: sln props > startup projects > current
 [commit]()
 
 ---
+
+
+<!--
 
 ## M06 | LOOPS
 
@@ -179,7 +181,7 @@ VS Settings: sln props > startup projects > current
 - [ ] [commit]()
 
 <!-- Polymorphism in extra Modul, weil es sonst zu viel auf einmal ist.
-Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach -->
+Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach 
 
 ---
 
