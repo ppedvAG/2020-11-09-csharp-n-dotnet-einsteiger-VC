@@ -35,7 +35,7 @@ VS Settings: Tools > Options > Debugging > Automatically close console when debu
 
 - [x] Demo: [Console](vadzims-solution/M01-Demo-Console/DConsole.cs)
 - [x] Variables, Zuweisungsoperator
-- [x] [commit]()
+- [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/13ba07aec15dacef658ceb742c7bc0fb67a6cb2b)
 
 VS Settings: sln props > startup projects > current
 
@@ -43,10 +43,10 @@ VS Settings: sln props > startup projects > current
 
 ## M03 | HANDLING TEXT
 
-- [ ] Folien: C# > Handling Text
-- [ ] Demo: [string](vadzims-solution/Demo-string/Dstring.cs)
+- [x] Folien: C# > Handling Text
+- [x] Demo: [string](vadzims-solution/Demo-string/Dstring.cs)
 - [ ] Demo: [char](vadzims-solution/Demo-char/Dchar.cs)
-- [ ] [commit]()
+- [x] [commit]()
 
 <!--
 
