@@ -25,18 +25,17 @@ VS Settings: Tools > Options > Text Editor > All Languages > General > Line numb
 - [x] Link: [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
 - [x] Spicker: [C# Syntax](/spicker/CSHARP-CHEATSHEET.md)
 - [x] Spicker: [Snippets](/spicker/VS-CS-SNIPPETS.md)
-- [x] [commit]()
+- [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/a931728cc62c613ef51f4660ed67949e3930142c)
 
 VS Settings: Tools > Options > Debugging > Automatically close console when debugging stops
 
 ---
 
-<!--
-
 ## M02 | CLASS CONSOLE
 
-- [ ] Demo: [Console](vadzims-solution/Demo-Console/DConsole.cs)
-- [ ] [commit]()
+- [x] Demo: [Console](vadzims-solution/M01-Demo-Console/DConsole.cs)
+- [x] Variables, Zuweisungsoperator
+- [x] [commit]()
 
 VS Settings: sln props > startup projects > current
 
@@ -48,6 +47,8 @@ VS Settings: sln props > startup projects > current
 - [ ] Demo: [string](vadzims-solution/Demo-string/Dstring.cs)
 - [ ] Demo: [char](vadzims-solution/Demo-char/Dchar.cs)
 - [ ] [commit]()
+
+<!--
 
 ---
 
