@@ -44,22 +44,22 @@ VS Settings: sln props > startup projects > current
 ## M03 | HANDLING TEXT
 
 - [x] Folien: C# > Handling Text
-- [x] Demo: [string](vadzims-solution/Demo-string/Dstring.cs)
+- [x] Demo: [string](vadzims-solution/M03-Demo-Text/DText.cs)
 - [ ] Demo: [char](vadzims-solution/Demo-char/Dchar.cs)
-- [x] [commit]()
-
-<!--
+- [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/d297f51fd5e576a0d8ec7b51b96393ef80e5e4bb)
 
 ---
 
 ## M04 | HANDLING NUMBERS
 
-- [ ] Folien: C# > Handling Numbers
-- [ ] Demo: [int](vadzims-solution/Demo-int/Dint.cs)
+- [x] Folien: C# > Handling Numbers [numbers](vadzims-solution/M04-Demo-Numbers/DNumbers.cs)
+- [x] Parsing & Casting
+- [x] Übung: [MiniRechner](vadzims-solution/M04-UE-Mini-Rechner/URechner.cs)
+- [x] [commit]()
+<!-- - [ ] Demo: [int](vadzims-solution/Demo-int/Dint.cs)
 - [ ] Demo: [double](vadzims-solution/Demo-double/Ddouble.cs)
-- [ ] Parsing & Casting
-- [ ] Übung: [MiniRechner](vadzims-solution/Ü-M03-MiniRechner/Program.cs)
-- [ ] [commit]()
+-->
+<!--
 
 ---
 
