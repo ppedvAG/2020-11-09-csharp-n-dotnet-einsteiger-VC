@@ -6,8 +6,8 @@
 - [x] Link: [VS homepage](https://visualstudio.microsoft.com/de/)
 - [x] Folien: VS > Getting Started
 - [x] Folien: VS > Projects & Solutions
-- [x] Spicker: [vs-shortcuts](/SPICKER/SHORTCUTS-VS.md)
-- [x] [commit]()
+- [x] Spicker: [vs-shortcuts](/spicker/shortcuts-vs.md)
+- [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/f5aa69f7e5a5519cf556db152b4d5d1e541bb765)
 <!-- - [ ] Folien: Git > Getting Started -->
 
 VS Settings: Tools > Options > General > Color Theme
@@ -20,12 +20,12 @@ VS Settings: Tools > Options > Text Editor > All Languages > General > Line numb
 
 ## M01 | GETTING STARTED
 
-- [ ] Folien: C# > Getting Started
-- [ ] Link: [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
-- [ ] Link: [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
-- [ ] Spicker: [C# Syntax](CSHARP-CHEATSHEET.md)
-- [ ] Spicker: [Snippets](VS-CS-SNIPPETS.md)
-- [ ] [commit]()
+- [x] Folien: C# > Getting Started
+- [x] Link: [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
+- [x] Link: [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
+- [x] Spicker: [C# Syntax](/spicker/CSHARP-CHEATSHEET.md)
+- [x] Spicker: [Snippets](/spicker/VS-CS-SNIPPETS.md)
+- [x] [commit]()
 
 VS Settings: Tools > Options > Debugging > Automatically close console when debugging stops
 
