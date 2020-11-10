@@ -21,15 +21,5 @@ namespace M04_UE_Mini_Rechner
                 $"{ Math.Max(intZahl, doubleZahl) / Math.Min(intZahl, doubleZahl)}");
              Console.ReadKey();
         }
-
-        // todo double / double ??? von Nico
-        //var v2 = 0;
-        //if (i1 > d1)
-        //{​​​​
-        //     double i1AsDouble = (double)i1;
-        //    v2 = i1AsDouble / d1;
-        //}​​​​
-        // else {​​​​ v2 = ((double)d1) / ((double)i1); }​​​​ 
-        //Console.WriteLine(v2);
     }
 }

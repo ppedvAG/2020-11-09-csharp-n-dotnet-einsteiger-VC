@@ -64,10 +64,25 @@ namespace M04_Demo_Numbers
             double d3 = double.Parse(Console.ReadLine());
             Console.WriteLine($"d3: {d3}"); // bei 3.4 -> 34
 
-            Console.WriteLine("Geben Sie noch einen DoubleWert ein: ");
+            Console.WriteLine("Geben Sie noch einen DoubleWert mit Punktnotation ein: ");
             double d4 = double.Parse(Console.ReadLine(), System.Globalization.CultureInfo.InvariantCulture);
             Console.WriteLine($"d4: {d4}");
 
+
+
+            // ====================================================
+            // todo double / double ??? von Nico
+            //var v2 = 0;
+            //int int1 = 4;
+            //double double1 = 4.4;
+            //if (i1 > d1)
+            //{​​​​
+                 // double i1AsDouble = (double)int1;
+
+            //    v2 = i1AsDouble / double1;
+            //}​​​​
+            // else {​​​​ v2 = ((double)double1) / ((double)int1); }​​​​ 
+            //Console.WriteLine(v2);
 
             Console.ReadLine();
         }

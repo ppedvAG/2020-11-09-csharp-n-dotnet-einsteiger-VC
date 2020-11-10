@@ -64,19 +64,17 @@ VS Settings: sln props > startup projects > current
 
 ## M05 | CONDITIONS
 
-- [ ] Folien: C# > Conditions
-- [ ] Demo: [Entscheidungen](vadzims-solution/Demo-Conditions/DConditions.cs)
-- [ ] enum 
+- [x] Folien: C# > Conditions
+- [x] Demo: [Entscheidungen](vadzims-solution/M05-Demo-Conditions/DConditions.cs)
+- [x] [commit]()
+
+<!-- - [ ] enum 
 - [ ] Übung: [enum & switch](vadzims-solution/Ü-M04-Switch-N-Enum/ÜSwitch.cs)
 - [ ] Demo: [bool](CS-GK-DUS-V/M02-Demo-bool/Dbool.cs)
 - [ ] [enum](CS-GK-DUS-V/M02-Demo-enum/Denum.cs)
-
-[commit]()
+-->
 
 ---
-
-
-<!--
 
 ## M06 | LOOPS
 
@@ -98,6 +96,8 @@ VS Settings: sln props > startup projects > current
 - [ ] [commit]()
 
 ---
+
+<!--
 
 ## M08 | FUNCTIONS
 

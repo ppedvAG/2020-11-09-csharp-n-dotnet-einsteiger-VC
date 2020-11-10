@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M01-Demo-Console", "M01-Demo-Console\M01-Demo-Console.csproj", "{6047CF58-8508-46EB-8F4B-10607549B72E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M01-Demo-Console", "M01-Demo-Console\M01-Demo-Console.csproj", "{6047CF58-8508-46EB-8F4B-10607549B72E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M03-Demo-Text", "M03-Demo-Text\M03-Demo-Text.csproj", "{EBFA63B1-B440-48D6-85ED-DFF52FB0C56A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M03-Demo-Text", "M03-Demo-Text\M03-Demo-Text.csproj", "{EBFA63B1-B440-48D6-85ED-DFF52FB0C56A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M04-Demo-Numbers", "M04-Demo-Numbers\M04-Demo-Numbers.csproj", "{65650A5F-A85E-4961-8E15-280BAC087E91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M04-Demo-Numbers", "M04-Demo-Numbers\M04-Demo-Numbers.csproj", "{65650A5F-A85E-4961-8E15-280BAC087E91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M04-UE-Mini-Rechner", "M04-UE-Mini-Rechner\M04-UE-Mini-Rechner.csproj", "{7571A31C-57AF-4AC4-BF12-7E2BF677D4EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M04-UE-Mini-Rechner", "M04-UE-Mini-Rechner\M04-UE-Mini-Rechner.csproj", "{7571A31C-57AF-4AC4-BF12-7E2BF677D4EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M05-Demo-Conditions", "M05-Demo-Conditions\M05-Demo-Conditions.csproj", "{10F11A03-AEE5-4EE2-9407-6857E5AD3C61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M05-Demo-Conditions", "M05-Demo-Conditions\M05-Demo-Conditions.csproj", "{10F11A03-AEE5-4EE2-9407-6857E5AD3C61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M06-UE-Zahlenratespiel", "M06-UE-Zahlenratespiel\M06-UE-Zahlenratespiel.csproj", "{61286B19-4E4A-410D-B1FF-19A1F1313F37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M06-UE-Zahlenratespiel", "M06-UE-Zahlenratespiel\M06-UE-Zahlenratespiel.csproj", "{61286B19-4E4A-410D-B1FF-19A1F1313F37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M07-Demo-Arrays", "M07-Demo-Arrays\M07-Demo-Arrays.csproj", "{18E2176E-CFED-447B-82EE-E1962ABC34FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M07-UE-Lotto", "M07-UE-Lotto\M07-UE-Lotto.csproj", "{F4D5FA8B-8F33-4CCD-A383-B8AE8E54C9D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{61286B19-4E4A-410D-B1FF-19A1F1313F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61286B19-4E4A-410D-B1FF-19A1F1313F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61286B19-4E4A-410D-B1FF-19A1F1313F37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E2176E-CFED-447B-82EE-E1962ABC34FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E2176E-CFED-447B-82EE-E1962ABC34FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E2176E-CFED-447B-82EE-E1962ABC34FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E2176E-CFED-447B-82EE-E1962ABC34FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D5FA8B-8F33-4CCD-A383-B8AE8E54C9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D5FA8B-8F33-4CCD-A383-B8AE8E54C9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D5FA8B-8F33-4CCD-A383-B8AE8E54C9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D5FA8B-8F33-4CCD-A383-B8AE8E54C9D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

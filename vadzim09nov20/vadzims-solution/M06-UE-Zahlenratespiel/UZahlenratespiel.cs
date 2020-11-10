@@ -9,14 +9,14 @@ namespace M06_UE_Zahlenratespiel
             Console.WriteLine("Übung Modul 5, Zahlenratespiel!");
 
             Random generator = new Random();
-            int zufallszahl = generator.Next(1, 5);
+            int zufallszahl = generator.Next(1, 6);
             Console.WriteLine("zufallszahl: {0}", zufallszahl);
 
             int ratemalzahl;
             int counter = 0;
             do
             {
-                Console.WriteLine("Erraten Sie eine int-Zahl zwischen 1 und 4: ");
+                Console.WriteLine("Erraten Sie eine int-Zahl zwischen 1 und 5: ");
                 ratemalzahl = int.Parse(Console.ReadLine());
                 if (zufallszahl == ratemalzahl)
                 {
