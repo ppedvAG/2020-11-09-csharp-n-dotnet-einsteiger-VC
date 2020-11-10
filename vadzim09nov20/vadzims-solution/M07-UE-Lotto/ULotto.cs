@@ -31,17 +31,25 @@ namespace M07_UE_Lotto
                 zufallsZahl = generator.Next(1, 11);
                 // Zufallszahlen dürfen nicht zweimal forkommen
                 if (!randomNumbers.Contains(zufallsZahl))
-                    randomNumbers[index] = zufallsZahl;
-                else
-                    index--;
-                Console.WriteLine($"{index + 1}. Gewinnzahl: {randomNumbers[index]}");
-                if (userNumbers.Contains(randomNumbers[index]))
                 {
-                    erraten++;
+                    randomNumbers[index] = zufallsZahl;
+                    Console.WriteLine($"{index + 1}. Gewinnzahl: {randomNumbers[index]}");
+                    if (userNumbers.Contains(randomNumbers[index]))
+                    {
+                        erraten++;
+                    }
                 }
+                else
+                    index--;                
             }
 
+
             Console.WriteLine("\nSie haben {0} Zahlen erraten.", erraten);
+
+            foreach (var item in randomNumbers)
+            {
+                Console.WriteLine(item);
+            }
 
             Console.ReadKey();
         }

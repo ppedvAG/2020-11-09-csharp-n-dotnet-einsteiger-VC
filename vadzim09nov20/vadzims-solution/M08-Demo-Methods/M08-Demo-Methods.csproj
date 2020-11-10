@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>M08_Demo_Methods</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Methods.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Methods.cs" />
+  </ItemGroup>
+
+</Project>

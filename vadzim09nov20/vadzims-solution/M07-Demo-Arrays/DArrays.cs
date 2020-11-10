@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace M07_Demo_Arrays
 {
@@ -22,10 +23,25 @@ namespace M07_Demo_Arrays
             intArray[0] = 2;
             intArray[1] = 6;
 
-            foreach (var item in intArray)
+            foreach (int item in intArray)
             {
                 Console.WriteLine(item);
             }
+
+
+            // ========================================
+            Console.WriteLine("\n Arrays für undefinierte Datentypen - nicht in C#");
+            // var[] test = new var[];
+
+
+
+            // ========================================
+            Console.WriteLine("\n Array und Linq");
+            int[] smallArray = new int[2];
+            smallArray[0] = 3;
+            Console.WriteLine($"smallArray.Last(): {smallArray.Last()}"); 
+            // default-Wert wird auch von Last() berücksichtigt
+
 
 
             // ========================================
@@ -40,7 +56,7 @@ namespace M07_Demo_Arrays
             // int[,] _name_ = new int[_anzahlSpalten,_anzahlZeilen] { {s1z1, s1z2 }, {s2z1, s2z2}, ... }
             // Die Struktur in geschweiften Klammern muss der Anzahl von Spalten und Zeilen entsprechen!
             int[,] zweiDimArray = new int[3, 3] { { 3, 4, 6 }, { 5, 6, 7 }, { 4, 6, 9 } };
-            foreach (var item in zweiDimArray)
+            foreach (int item in zweiDimArray)
             {
                 Console.WriteLine(item);
             }
@@ -69,6 +85,13 @@ namespace M07_Demo_Arrays
             }
             // GetUpperBound Gets the index of the last element of the specified dimension in the array.
 
+
+            // ========================================
+            Console.WriteLine("\n Das Array args bei der Main-Methode");
+            foreach (string item in args)
+            {
+                Console.WriteLine(item);
+            }
             Console.ReadLine();
         }
     }

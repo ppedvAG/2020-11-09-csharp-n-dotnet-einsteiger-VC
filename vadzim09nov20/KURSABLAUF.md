@@ -35,6 +35,7 @@ VS Settings: Tools > Options > Debugging > Automatically close console when debu
 
 - [x] Demo: [Console](vadzims-solution/M01-Demo-Console/DConsole.cs)
 - [x] Variables, Zuweisungsoperator
+- [ ] Demo: [Scopes](vadzims-solution/M02-Demo-Scopes/DScopes.cs)
 - [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/13ba07aec15dacef658ceb742c7bc0fb67a6cb2b)
 
 VS Settings: sln props > startup projects > current
@@ -45,8 +46,9 @@ VS Settings: sln props > startup projects > current
 
 - [x] Folien: C# > Handling Text
 - [x] Demo: [string](vadzims-solution/M03-Demo-Text/DText.cs)
-- [ ] Demo: [char](vadzims-solution/Demo-char/Dchar.cs)
 - [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/d297f51fd5e576a0d8ec7b51b96393ef80e5e4bb)
+<!-- 
+- [ ] Demo: [char](vadzims-solution/Demo-char/Dchar.cs) -->
 
 ---
 
@@ -66,7 +68,7 @@ VS Settings: sln props > startup projects > current
 
 - [x] Folien: C# > Conditions
 - [x] Demo: [Entscheidungen](vadzims-solution/M05-Demo-Conditions/DConditions.cs)
-- [x] [commit]()
+- [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/382e936ff0cd5800d0167bce986ddf12321c649b)
 
 <!-- - [ ] enum 
 - [ ] Übung: [enum & switch](vadzims-solution/Ü-M04-Switch-N-Enum/ÜSwitch.cs)
@@ -78,54 +80,56 @@ VS Settings: sln props > startup projects > current
 
 ## M06 | LOOPS
 
-- [ ] Folien: C# > Loops
+- [x] Folien: C# > Loops
+- [x] Klasse Random
+- [x] Übung: [Zahlenratespiel](vadzims-solution/M06-UE-Zahlenratespiel/UZahlenratespiel.cs)
+- [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/4ce5278eca511298de55a421b6acd348c9ed6d36)
+<!--
 - [ ] Übung: [for-loop](vadzims-solution/Ü-M05-For-Loop/ÜFor.cs)
-- [ ] Klasse Random
-- [ ] Übung: [Zahlenratespiel](vadzims-solution/Ü-M05-Zahlenratespiel/ÜZahlenratespiel.cs)
-- [ ] [commit]()
-  
+-->
+
 ---
 
 ## M07 | ARRAYS
 
-- [ ] Folien: C# > Arrays
-- [ ] Folien: C# > Linq Methods
-- [ ] Demo: [Arrays](vadzims-solution/Demo-Arrays/DArrays.cs)
-- [ ] iterator foreach
-- [ ] Übung: [Lotto](vadzims-solution/Ü-M06-Lotto/ÜLotto.cs)
-- [ ] [commit]()
+- [x] Folien: C# > Arrays
+- [x] Folien: C# > Linq Methods
+- [x] Demo: [Arrays](vadzims-solution/M07-Demo-Arrays/DArrays.cs)
+- [x] iterator foreach
+- [x] Übung: [Lotto](vadzims-solution/M07-UE-Lotto/ULotto.cs)
+- [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/af1ae7df7ae72c9514a322d8f9e21fed167ca0b9)
 
 ---
 
-<!--
-
 ## M08 | FUNCTIONS
 
-- [ ] Folien: C# > Functions
-- [ ] arguments
-- [ ] parameters
-- [ ] params
-- [ ] return
-- [ ] overloads
-- [ ] out & ref parameters & args
-- [ ] Demo: [Methods](vadzims-solution/D-M07-Functions/DFunctions.cs)
-- [ ] [commit]()
+- [x] Folien: C# > Functions
+- [x] arguments
+- [x] parameters
+- [x] params
+- [x] return
+- [x] overloads
+- [x] out & ref parameters & args
+- [x] Demo: [Methods](vadzims-solution/M08-Demo-Methods/DMethods.cs)
+- [x] [commit]()
 
 ---
 
 ## M09 | CLASSES (Fortsetzung)
 
-- [ ] Folien: C# > Types & Variables
-- [ ] Demo: [Types](vadzims-solution/D-M08-Classes/Types.cs)
-- [ ] Folien: C# > Props & Instances
+- [x] Folien: C# > Types & Variables
+- [x] Folien: C# > Props & Instances
+- [x] Demo: [constructor, destructor](vadzims-solution/D-M08-Classes/PersonMitCtor.cs)
+- [x] [commit]()
 - [ ] Demo: [props, modifier, members, methods](vadzims-solution/D-M08-Classes/PersonOhneCtor.cs)
-- [ ] Demo: [constructor, destructor](vadzims-solution/D-M08-Classes/PersonMitCtor.cs)
 - [ ] Demo: [fields](vadzims-solution/D-M08-Classes/PersonMitFeldOhneProp.cs)
 - [ ] Übung: [Transport](vadzims-solution/Ü-M08-Fuhrpark/Transportmittel.cs)
 - [ ] Übung: [TransportConsumer](vadzims-solution/Ü-M08-Fuhrpark/ÜFuhrpark.cs)
-- [ ] [commit]()
+- [ ] Demo: [Types](vadzims-solution/D-M08-Classes/Types.cs)
 
 ---
+
+<!--
 
 ## M10 | FILE ACCESS & SERIALIZING​
 
