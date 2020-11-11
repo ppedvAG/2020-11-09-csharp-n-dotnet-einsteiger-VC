@@ -122,7 +122,7 @@ VS Settings: sln props > startup projects > current
 - [x] Demo: [constructor, destructor](vadzims-solution/M09-Demo-Classes/DClasses.cs)
 - [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/e9d576f498b1128c5af8973e96501a3d2bb901d4)
 - [ ] Demo: [props, modifier, members, methods](vadzims-solution/D-M08-Classes/PersonOhneCtor.cs)
-- [ ] [commit]()
+- [ ] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/ba281e775431c09f78bf7b81dac35741250bf380)
 - [ ] Übung: [Transport](vadzims-solution/Ü-M08-Fuhrpark/Transportmittel.cs)
 - [ ] Übung: [TransportConsumer](vadzims-solution/Ü-M08-Fuhrpark/ÜFuhrpark.cs)
 - [ ] Demo: [fields](vadzims-solution/D-M08-Classes/PersonMitFeldOhneProp.cs)
@@ -134,8 +134,9 @@ VS Settings: sln props > startup projects > current
 
 - [ ] Folien: C# > File Access & Serializing
 - [ ] Demo: [StreamReader & StreamWriter](vadzims-solution/D-M09-FileAccess/DFileAccess.cs)
-- [ ] SaveFileDialog & OpenFileDialog
 - [ ] Demo: [JSON, serialize](vadzims-solution/D-M09-FileAccess/DFileAccess.cs)
+- [ ] [commit]()
+- [ ] SaveFileDialog & OpenFileDialog
 
 ---
 

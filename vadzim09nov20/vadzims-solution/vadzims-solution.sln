@@ -25,9 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M09-Demo-Classes", "M09-Dem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M02-Demo-Scopes", "M02-Demo-Scopes\M02-Demo-Scopes.csproj", "{479F2319-E3D2-4ADD-9FAF-10DCBC1D585E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M09-UE-Fuhrpark-Konsument", "M09-UE-Fuhrpark-Konsument\M09-UE-Fuhrpark-Konsument.csproj", "{FB581BE7-A90F-4FCC-9F5D-D214E0583823}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M09-UE-Fuhrpark-Konsument", "M09-UE-Fuhrpark-Konsument\M09-UE-Fuhrpark-Konsument.csproj", "{FB581BE7-A90F-4FCC-9F5D-D214E0583823}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M09-UE-Fuhrpark-Bibliothek", "M09-UE-Fuhrpark-Bibliothek\M09-UE-Fuhrpark-Bibliothek.csproj", "{DAA6F956-3A8A-4065-B4DD-932ECD468992}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M09-UE-Fuhrpark-Bibliothek", "M09-UE-Fuhrpark-Bibliothek\M09-UE-Fuhrpark-Bibliothek.csproj", "{DAA6F956-3A8A-4065-B4DD-932ECD468992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-M15-WinFormsFramework", "D-M15-WinFormsFramework\D-M15-WinFormsFramework.csproj", "{D1B923BC-3858-4DB7-B57F-3EF014850BF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M10-Demo-FileAccess-Und-Serialisierung", "M10-Demo-FileAccess-Und-Serializierung\M10-Demo-FileAccess-Und-Serialisierung.csproj", "{D4C9486E-0121-4026-AE2E-0FD27D4B8121}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{DAA6F956-3A8A-4065-B4DD-932ECD468992}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAA6F956-3A8A-4065-B4DD-932ECD468992}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAA6F956-3A8A-4065-B4DD-932ECD468992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B923BC-3858-4DB7-B57F-3EF014850BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B923BC-3858-4DB7-B57F-3EF014850BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B923BC-3858-4DB7-B57F-3EF014850BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B923BC-3858-4DB7-B57F-3EF014850BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4C9486E-0121-4026-AE2E-0FD27D4B8121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C9486E-0121-4026-AE2E-0FD27D4B8121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C9486E-0121-4026-AE2E-0FD27D4B8121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C9486E-0121-4026-AE2E-0FD27D4B8121}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
