@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>M09_UE_Fuhrpark_Konsument</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\M09-UE-Fuhrpark-Bibliothek\M09-UE-Fuhrpark-Bibliothek.csproj" />
+  </ItemGroup>
+
+</Project>

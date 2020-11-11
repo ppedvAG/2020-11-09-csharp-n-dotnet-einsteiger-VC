@@ -8,11 +8,9 @@ namespace M09_Demo_Classes
         {
             Console.WriteLine("CLASSES");
 
-
-
             // ==============================================================
             // _datentyp_ _variablenname_ = _wert_
-            PersonOhneCtor personOhneCtor = new PersonOhneCtor(); 
+            PersonOhneCtor personOhneCtor = new PersonOhneCtor();
             // Auch wenn in der Klasse kein Konstruktor definiert, 
             // darf man den automatischen Ktor verwenden
             Console.WriteLine($"personOhneCtor: {personOhneCtor}"); // M09_Demo_Classes.PersonOhneCtor
@@ -68,6 +66,36 @@ namespace M09_Demo_Classes
             // ==============================================================
             PersonMitCtorUndAdresse mitCtorUndAdresse = new PersonMitCtorUndAdresse("Müller", "Hauptstraße 1");
 
+
+
+            // ==============================================================
+            Console.WriteLine("\n\n MODIFIER");
+            Console.WriteLine("\n Modifizierer von Mitgliedern einer Klasse");
+            // Elemente mit dem Modifizierer private sind nur in dem Scope verfügbar, wo sie angelegt sind
+            KlasseMitMembers klasseMitMembers = new KlasseMitMembers();
+
+
+            // Durch Intellisens schau nach, welche Member von dieser Variable hier verfügbar sind
+            // klasseMitMembers.
+
+
+            // KlassePublicInAndererKlasse // ist in einer anderen Klasse im gleichen Namensraum nicht verfügbar
+
+
+            Console.WriteLine("\n Modifizierer von Klassen im gleichen Namensraum");
+
+            KlasseOhneModifizierer klasseOhneModifizierer = new KlasseOhneModifizierer(); // verfügbar
+            KlassePublic klassePublic = new KlassePublic(); // verfügbar
+            KlasseInternal klasseInternal = new KlasseInternal(); // verfügbar
+
+
+
+            Console.WriteLine("\n Modifizierer von Getter & Setter / Accessors einer Prop in einer anderen Klasse");
+            klasseMitMembers.PropPublicMitPrivateGet = 9; // geht
+            // klasseMitMembers.PropPublicMitPrivateSet = 3; // von hier nicht änderbar, weil Setter private ist. Nur innerhalb der Klasse
+
+
+
             Console.ReadLine();
         }
     }
@@ -82,7 +110,7 @@ namespace M09_Demo_Classes
 
     class PersonMitCtor
     {
-        public string Nachname { get; }        
+        public string Nachname { get; }
         // Konstruktoren
         // Szenario: für eine Eigenschaft ist in einer DB kein Null-Wert erlaubt. 
         // Durch den Ktor verhindern, dass diese Eigenschaft bei Klasseninstanzen ohne Wert bleibt.

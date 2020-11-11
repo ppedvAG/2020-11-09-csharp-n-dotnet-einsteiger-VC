@@ -119,17 +119,16 @@ VS Settings: sln props > startup projects > current
 
 - [x] Folien: C# > Types & Variables
 - [x] Folien: C# > Props & Instances
-- [x] Demo: [constructor, destructor](vadzims-solution/D-M08-Classes/PersonMitCtor.cs)
-- [x] [commit]()
+- [x] Demo: [constructor, destructor](vadzims-solution/M09-Demo-Classes/DClasses.cs)
+- [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/e9d576f498b1128c5af8973e96501a3d2bb901d4)
 - [ ] Demo: [props, modifier, members, methods](vadzims-solution/D-M08-Classes/PersonOhneCtor.cs)
-- [ ] Demo: [fields](vadzims-solution/D-M08-Classes/PersonMitFeldOhneProp.cs)
+- [ ] [commit]()
 - [ ] Übung: [Transport](vadzims-solution/Ü-M08-Fuhrpark/Transportmittel.cs)
 - [ ] Übung: [TransportConsumer](vadzims-solution/Ü-M08-Fuhrpark/ÜFuhrpark.cs)
+- [ ] Demo: [fields](vadzims-solution/D-M08-Classes/PersonMitFeldOhneProp.cs)
 - [ ] Demo: [Types](vadzims-solution/D-M08-Classes/Types.cs)
 
 ---
-
-<!--
 
 ## M10 | FILE ACCESS & SERIALIZING​
 
@@ -140,6 +139,7 @@ VS Settings: sln props > startup projects > current
 
 ---
 
+<!--
 ## M11 | HTTPCLIENT
 
 - [ ] Demo: [HttpClient & deserialize](vadzims-solution/D-M10-HttpClient/DHttpClient.cs)
