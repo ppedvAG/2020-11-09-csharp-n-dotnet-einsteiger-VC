@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-M15-WinFormsFramework", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M10-Demo-FileAccess-Und-Serialisierung", "M10-Demo-FileAccess-Und-Serializierung\M10-Demo-FileAccess-Und-Serialisierung.csproj", "{D4C9486E-0121-4026-AE2E-0FD27D4B8121}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{96051BE9-CBEC-469A-82AE-E94953F0088C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{D4C9486E-0121-4026-AE2E-0FD27D4B8121}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4C9486E-0121-4026-AE2E-0FD27D4B8121}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4C9486E-0121-4026-AE2E-0FD27D4B8121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96051BE9-CBEC-469A-82AE-E94953F0088C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96051BE9-CBEC-469A-82AE-E94953F0088C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96051BE9-CBEC-469A-82AE-E94953F0088C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96051BE9-CBEC-469A-82AE-E94953F0088C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

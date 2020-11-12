@@ -37,8 +37,9 @@ namespace M09_Demo_Classes
             // Wie kriegt man raus, dass die Werte doch gleich sind?
             Console.WriteLine(personOhneCtor.Equals(personOhneCtor1) ? "equal (not static)" : "not equal (not static)");
 
-            // todo 
-
+            // todo Objektinhalte vergleichen
+            // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/equality-comparisons
+            // https://docs.microsoft.com/de-de/dotnet/csharp/programming-guide/statements-expressions-operators/how-to-define-value-equality-for-a-type
 
 
             // ==============================================================

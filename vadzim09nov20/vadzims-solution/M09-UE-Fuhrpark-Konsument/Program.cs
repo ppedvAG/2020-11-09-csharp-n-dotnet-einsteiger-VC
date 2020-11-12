@@ -8,7 +8,10 @@ namespace M09_UE_Fuhrpark_Konsument
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Transportmittel class1 = new Transportmittel();
+            Transportmittel class1 = new Transportmittel("BMW", 4365.345, 200);
+            PKW pkw = new PKW();
+
+
         }
     }
 }
