@@ -121,23 +121,26 @@ VS Settings: sln props > startup projects > current
 - [x] Folien: C# > Props & Instances
 - [x] Demo: [constructor, destructor](vadzims-solution/M09-Demo-Classes/DClasses.cs)
 - [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/e9d576f498b1128c5af8973e96501a3d2bb901d4)
-- [ ] Demo: [props, modifier, members, methods](vadzims-solution/D-M08-Classes/PersonOhneCtor.cs)
-- [ ] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/ba281e775431c09f78bf7b81dac35741250bf380)
-- [ ] Übung: [Transport](vadzims-solution/Ü-M08-Fuhrpark/Transportmittel.cs)
-- [ ] Übung: [TransportConsumer](vadzims-solution/Ü-M08-Fuhrpark/ÜFuhrpark.cs)
+- [x] Demo: [props, modifier, members, methods](vadzims-solution/M09-Demo-Classes/KlasseMitMembers.cs)
+- [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/ba281e775431c09f78bf7b81dac35741250bf380)
+- [x] Übung: [Transport](vadzims-solution/M09-UE-Fuhrpark-Bibliothek/Transportmittel.cs)
+- [x] Übung: [TransportConsumer](vadzims-solution/M09-UE-Fuhrpark-Konsument/UFuhrparkKnsmt.cs)
+<!--
 - [ ] Demo: [fields](vadzims-solution/D-M08-Classes/PersonMitFeldOhneProp.cs)
 - [ ] Demo: [Types](vadzims-solution/D-M08-Classes/Types.cs)
+-->
 
 ---
 
 ## M10 | FILE ACCESS & SERIALIZING​
 
-- [ ] Folien: C# > File Access & Serializing
-- [ ] Demo: [StreamReader & StreamWriter](vadzims-solution/D-M09-FileAccess/DFileAccess.cs)
-- [ ] Demo: [JSON, serialize](vadzims-solution/D-M09-FileAccess/DFileAccess.cs)
-- [ ] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/0d5950b458355ff20e16e2ee10004b31f1684d44)
+- [x] Folien: C# > File Access & Serializing
+- [x] Demo: [StreamReader, StreamWriter, JSON](vadzims-solution/M10-Demo-FileAccess-Und-Serializierung/Form1.cs)
+- [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/0d5950b458355ff20e16e2ee10004b31f1684d44)
+<!--
 - [ ] SaveFileDialog & OpenFileDialog
-
+- [ ] Demo: [JSON, serialize](vadzims-solution/D-M09-FileAccess/DFileAccess.cs)
+-->
 ---
 
 ## M12 | INHERITENCE
@@ -160,24 +163,23 @@ VS Settings: sln props > startup projects > current
 
 ## M13 | Exception-Handling​
 
-- [ ] Folien: C# > Exceptions Handling
-- [ ] Link: [standard exception](https://docs.microsoft.com/de-de/dotnet/standard/design-guidelines/using-standard-exception-types)
-- [ ] Exception & throw
-- [ ] try catch finally
-- [ ] Exception types
-- [ ] Custom Exceptions
-- [ ] Demo: [Exception](vadzims-solution/D-M12-Exceptions/DExceptions.cs)
-- [ ] Demo: [customized exception](vadzims-solution/D-M12-Exceptions/TooShortException.cs)
-- [ ] [commit]()
+- [x] Folien: C# > Exceptions Handling
+- [x] Link: [standard exception](https://docs.microsoft.com/de-de/dotnet/standard/design-guidelines/using-standard-exception-types)
+- [x] Exception & throw
+- [x] try catch finally
+- [x] Exception types
+- [x] Custom Exceptions
+- [x] Demo: [Exceptions](vadzims-solution/M13-Demo-Exceptions-Und-WPF/MainWindow.xaml.cs)
+- [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/73a803dde2fa194b112d5049de3344ed7adca7a5)
 
 ---
 
 ## M14 | INTERFACES
 
-- [ ] Folien: C# > Interfaces
-- [ ] Übung: [IKannAndereTransportieren](vadzims-solution/Ü-M13-Interfaces/IKannAndereTransportieren.cs)
-- [ ] Übung: [Flugzeug: I](vadzims-solution/Ü-M13-Interfaces/Flugzeug.cs)
-- [ ] [commit]()
+- [x] Folien: C# > Interfaces
+- [x] Übung: [IKannAndereTransportieren](vadzims-solution/M09-UE-Fuhrpark-Bibliothek/IKannAndereTransportieren.cs)
+- [x] Übung: [Flugzeug: I](vadzims-solution/M09-UE-Fuhrpark-Bibliothek/Flugzeug.cs)
+- [x] [commit]()
 
  Polymorphism in extra Modul, weil es sonst zu viel auf einmal ist.
 Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach 
