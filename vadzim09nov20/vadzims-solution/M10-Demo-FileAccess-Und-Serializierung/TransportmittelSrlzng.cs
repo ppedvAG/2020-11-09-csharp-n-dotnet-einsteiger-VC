@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace M10_Demo_FileAccess_Und_Serializierung
 {
-    public class Transportmittel
+    public class TransportmittelSrlzng
     {
         // types
         enum Zustand { aus, an }
@@ -29,7 +29,7 @@ namespace M10_Demo_FileAccess_Und_Serializierung
         Zustand FZustand;
 
         // ctor
-        public Transportmittel(string name, double preis, uint maxGeschwindigkeit)
+        public TransportmittelSrlzng(string name, double preis, uint maxGeschwindigkeit)
         {
             Modell = name;
             Preis = preis;

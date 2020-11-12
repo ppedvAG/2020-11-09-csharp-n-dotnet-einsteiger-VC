@@ -14,9 +14,20 @@ namespace M09_UE_Fuhrpark_Bibliothek
             AnzahlTüren = anzahlTüren;
             GefahreneKm = gefahreneKm;
         }
+
+        new public void StarteMotor() // mit new zeigen wir, dass das Überdecken der Methode gewünscht
+        {
+            Console.WriteLine("StarteMotor von Klasse PKW");
+        }
+
         public override string BeschreibeMich()
         {
             return base.BeschreibeMich() + $"\nAnzahlTüren: {AnzahlTüren}";
+        }
+
+        public string BeschreibeMichExtra()
+        {
+            return BeschreibeMich() + "extra Informationen";
         }
     }
 }

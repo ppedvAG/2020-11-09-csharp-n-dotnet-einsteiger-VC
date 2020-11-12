@@ -7,6 +7,8 @@ namespace M08_Demo_Methods
 {
     class DMethods
     {
+        
+        int inDerKlasseSelbst = 4;
         static void Main(string[] args)
         {
             Console.WriteLine("METHODS & FUNCTIONS");
@@ -17,6 +19,7 @@ namespace M08_Demo_Methods
             // Console.WriteLine(variable); erst nach der Deklaration möglich
             int variable = 4;
 
+            // inDerKlasseSelbst = 3; // static muss alles sein, was in die static Main-Methode reinkommt
 
             // Methoden dürfen for ihrer Definition aufgerufen werden.
 

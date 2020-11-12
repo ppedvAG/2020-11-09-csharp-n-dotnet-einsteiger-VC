@@ -58,6 +58,7 @@ namespace M09_UE_Fuhrpark_Bibliothek
         public void StarteMotor()
         {
             FZustand = Zustand.an;
+            Console.WriteLine("StarteMotor von Klasse Transportmittel");
         }
 
         public void StoppeMotor()
@@ -72,6 +73,15 @@ namespace M09_UE_Fuhrpark_Bibliothek
 Maximale Geschwindigkeit: {maximalGeschwindigkeit} km/h
 Zustand: {FZustand}
 Aktuelle Geschwindigkeit: {AktuelleGeschwindigkeit}";
+        }
+
+        // Zum Einsetzen dieser Methode siehe Fuhrpark Konsument
+        public static double kmToMilesAndOtherWayBack(double wert, string einheit)
+        {
+            if (einheit == "miles")
+                return wert * 0.46;
+            else
+                return wert / 0.46;
         }
 
     }

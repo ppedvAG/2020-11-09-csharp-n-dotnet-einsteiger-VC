@@ -155,12 +155,6 @@ VS Settings: sln props > startup projects > current
 - [ ] Übung: [static methods](vadzims-solution/Ü-M11-Inheritence/Schiff.cs#static)
 - [ ] [commit]()
 - [ ] 
----
-
-<!--
-## M11 | HTTPCLIENT
-
-- [ ] Demo: [HttpClient & deserialize](vadzims-solution/D-M10-HttpClient/DHttpClient.cs)
  
 ---
 
@@ -185,7 +179,7 @@ VS Settings: sln props > startup projects > current
 - [ ] Übung: [Flugzeug: I](vadzims-solution/Ü-M13-Interfaces/Flugzeug.cs)
 - [ ] [commit]()
 
-<!-- Polymorphism in extra Modul, weil es sonst zu viel auf einmal ist.
+ Polymorphism in extra Modul, weil es sonst zu viel auf einmal ist.
 Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach 
 
 ---
@@ -203,17 +197,6 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach
 
 ---
 
-## M16 | WINDOWS FORMS
-
-- [ ] partial classes
-- [ ] widgets / components
-- [ ] component props
-- [ ] Demo: [TicTacToe](vadzims-solution/D-M15-WinFormsFramework/Form1.cs)
-- [ ] Übung: Das Spiel weiterentwickeln (neu start, gewinne zählen, abbrechen)
-- [ ] [commit]()
-
----
-
 ## M17 | DELEGATES & EVENTS
 
 - [ ] Folien: C# > Delegates
@@ -226,6 +209,15 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach
 
 ---
 
+## M21 | Entity Framework Core
+
+- [ ] ORM
+- [ ] DBContext
+- [ ] DBSet & Entities
+- [ ] [Demo ](CS-GK-DUS-V/M19-Demo-Entity-Framework/EFDbContext.cs)
+
+[commit]()
+
 ## M18 | Timing Klassen
 
 - [ ] [Klasse Timing](CS-GK-DUS-V/M17-Demo-Timing/Form1.cs)
@@ -234,6 +226,24 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach
 
 [commit]()
 
+---
+
+## M16 | WINDOWS FORMS
+
+- [ ] partial classes
+- [ ] widgets / components
+- [ ] component props
+- [ ] Demo: [TicTacToe](vadzims-solution/D-M15-WinFormsFramework/Form1.cs)
+- [ ] Übung: Das Spiel weiterentwickeln (neu start, gewinne zählen, abbrechen)
+- [ ] [commit]()
+
+---
+
+## M11 | HTTPCLIENT
+
+- [ ] Demo: [HttpClient & deserialize](vadzims-solution/D-M10-HttpClient/DHttpClient.cs)
+
+<!--
 Ü Einfacher Taschenrechner?
 
 Ü Anmeldeformular? / Gästeliste?
@@ -262,14 +272,6 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach
 
 [commit]()
 
-## M21 | Entity Framework Core
-
-- [ ] ORM
-- [ ] DBContext
-- [ ] DBSet & Entities
-- [ ] [Demo ](CS-GK-DUS-V/M19-Demo-Entity-Framework/EFDbContext.cs)
-
-[commit]()
 
 ## M22 | Dependency Injection
 

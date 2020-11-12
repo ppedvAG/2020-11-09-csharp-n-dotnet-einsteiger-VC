@@ -20,13 +20,13 @@ namespace M10_Demo_FileAccess_Und_Serializierung
         }
 
         // Felder / Variablen
-        Transportmittel transportmittel;
+        TransportmittelSrlzng transportmittel;
         StreamWriter streamWriter;
         StreamReader sr;
 
         private void generateTransportmittel()
         {
-            transportmittel = new Transportmittel("Auto", 55000.23, 220);
+            transportmittel = new TransportmittelSrlzng("Auto", 55000.23, 220);
             
             MessageBox.Show(transportmittel.BeschreibeMich());
 
@@ -80,7 +80,7 @@ namespace M10_Demo_FileAccess_Und_Serializierung
         {
             sr = new StreamReader("C:\\Users\\vn3\\Desktop\\TransportAlsJsonString.txt");
             string jsonString = sr.ReadToEnd();
-            transportmittel = JsonConvert.DeserializeObject<Transportmittel>(jsonString);
+            transportmittel = JsonConvert.DeserializeObject<TransportmittelSrlzng>(jsonString);
             sr.Close();
             MessageBox.Show($"Typ: {transportmittel.GetType().ToString()}, Preis: {transportmittel.Preis}");
         }
