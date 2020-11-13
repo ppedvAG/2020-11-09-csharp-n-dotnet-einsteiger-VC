@@ -1,12 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace M09_UE_Fuhrpark_Bibliothek
+namespace M16_Demo_EF.Models
 {
-    public class Transportmittel
+    public class TransportmittelEF
     {
         // types
         enum Zustand { aus, an }
-        enum GeschwindigkeitEinheit { km, miles }
+
+        [Key]
+        public int Id { get; set; }
 
         // props
         // Wird der Wert in einer Methode gesetzt, dann braucht man den Setter
@@ -14,11 +21,14 @@ namespace M09_UE_Fuhrpark_Bibliothek
         // Muss nicht public sein, weil BeschreibeMich den Wert ausgibt
         // diese Prop kann auch als Feld angelegt werden
         // Will man diese Eigenschaft direkt ansprechen, ohne BeschreibeMich(), muss es public Prop bleiben
+        [Required] 
         string Modell { get; }
 
         // Es gibt keine Methode, wo der Preis geändert wird, 
         // Es ist einfacher, wenn Preis als Property angelegt ist
+        [Required]
         public double Preis { get; set; }
+        [Required]
         uint maximalGeschwindigkeit;
         // Will man diese Eigenschaft direkt ansprechen, ohne BeschreibeMich(), muss es public Prop bleiben
         public uint AktuelleGeschwindigkeit { get; private set; }
@@ -26,9 +36,9 @@ namespace M09_UE_Fuhrpark_Bibliothek
         Zustand FZustand;
 
         // ctor
-        public Transportmittel(string name, double preis, uint maxGeschwindigkeit)
+        public TransportmittelEF(string modell, double preis, uint maxGeschwindigkeit)
         {
-            Modell = name;
+            Modell = modell;
             Preis = preis;
             maximalGeschwindigkeit = maxGeschwindigkeit;
             FZustand = Zustand.aus;
@@ -79,10 +89,6 @@ Aktuelle Geschwindigkeit: {AktuelleGeschwindigkeit}";
         // Zum Einsetzen dieser Methode siehe Fuhrpark Konsument
         public static double kmToMilesAndOtherWayBack(double wert, string einheit)
         {
-            // Thema '#Enumeratoren'
-            // Aufgabe: enum als Zwischenschritt einzubauen
-            // enum hat zwei mögliche Werte: km und miles
-
             if (einheit == "miles")
                 return wert * 0.46;
             else
@@ -90,5 +96,4 @@ Aktuelle Geschwindigkeit: {AktuelleGeschwindigkeit}";
         }
 
     }
-
 }

@@ -1,0 +1,30 @@
+﻿<Window x:Class="M17_Demo_Enumeratoren.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:M17_Demo_Enumeratoren"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="StartBtn" Content="Button" HorizontalAlignment="Left" Height="40" Margin="310,80,0,0" VerticalAlignment="Top" Width="80" Click="StartBtn_Click"/>
+        <ComboBox 
+            Name="WeekdaysCombi"
+            HorizontalAlignment="Left" 
+            Height="40" 
+            Margin="80,80,0,0" 
+            VerticalAlignment="Top" 
+            Width="205">
+            <ComboBoxItem>Montag</ComboBoxItem>
+            <ComboBoxItem>Dienstag</ComboBoxItem>
+            <ComboBoxItem>Mittwoch</ComboBoxItem>
+            <ComboBoxItem>Donnerstag</ComboBoxItem>
+            <ComboBoxItem IsSelected="True">Freitag</ComboBoxItem>
+            <ComboBoxItem>Samstag</ComboBoxItem>
+            <ComboBoxItem>Sonntag</ComboBoxItem>
+        </ComboBox>
+        <TextBlock Name="ausgabeTextBlock" HorizontalAlignment="Left" Height="40" Margin="455,80,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="185"/>
+        <Label Content="Tagesangebot" HorizontalAlignment="Left" Height="40" Margin="455,35,0,0" VerticalAlignment="Top" Width="185"/>
+
+    </Grid>
+</Window>

@@ -179,9 +179,9 @@ VS Settings: sln props > startup projects > current
 - [x] Folien: C# > Interfaces
 - [x] Übung: [IKannAndereTransportieren](vadzims-solution/M09-UE-Fuhrpark-Bibliothek/IKannAndereTransportieren.cs)
 - [x] Übung: [Flugzeug: I](vadzims-solution/M09-UE-Fuhrpark-Bibliothek/Flugzeug.cs)
-- [x] [commit]()
+- [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/a095d73e6726819c6e2a7acb91fb77a52bd01b4a)
 
- Polymorphism in extra Modul, weil es sonst zu viel auf einmal ist.
+Polymorphism in extra Modul, weil es sonst zu viel auf einmal ist.
 Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach 
 
 ---
@@ -199,6 +199,25 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach
 
 ---
 
+## M16 | Entity Framework Core
+
+- [ ] ORM
+- [ ] DBContext
+- [ ] DBSet & Entities
+- [ ] [Demo ](CS-GK-DUS-V/M19-Demo-Entity-Framework/EFDbContext.cs)
+
+[commit]()
+
+---
+
+## M17 | ENUMS
+
+- [ ] Demo:
+- [ ] Übung:
+- [ ] [Commit]()
+
+---
+
 ## M17 | DELEGATES & EVENTS
 
 - [ ] Folien: C# > Delegates
@@ -209,16 +228,6 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach
 - [ ] Demo: [anonumous functions](vadzims-solution/D-M16-Delegates/Program.cs)
 - [ ] [commit]()
 
----
-
-## M21 | Entity Framework Core
-
-- [ ] ORM
-- [ ] DBContext
-- [ ] DBSet & Entities
-- [ ] [Demo ](CS-GK-DUS-V/M19-Demo-Entity-Framework/EFDbContext.cs)
-
-[commit]()
 
 ## M18 | Timing Klassen
 
