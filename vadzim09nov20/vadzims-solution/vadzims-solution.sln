@@ -39,6 +39,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M16-Demo-EF", "M16-Versuch2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M17-Demo-Enumeratoren", "M17-Demo-Enumeratoren\M17-Demo-Enumeratoren.csproj", "{88DD84A9-9321-4032-AAF6-99367B6BE712}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M18-Demo-Delegates", "M18-Demo-Delegates\M18-Demo-Delegates.csproj", "{5EAB1024-B5A9-425B-B333-E6870E306850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M19-Demo-Timers", "M19-Demo-Timers\M19-Demo-Timers.csproj", "{6E9ECEEA-3C5E-4BAA-87CE-5A4364B8D8C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{88DD84A9-9321-4032-AAF6-99367B6BE712}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88DD84A9-9321-4032-AAF6-99367B6BE712}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88DD84A9-9321-4032-AAF6-99367B6BE712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EAB1024-B5A9-425B-B333-E6870E306850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAB1024-B5A9-425B-B333-E6870E306850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAB1024-B5A9-425B-B333-E6870E306850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAB1024-B5A9-425B-B333-E6870E306850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E9ECEEA-3C5E-4BAA-87CE-5A4364B8D8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9ECEEA-3C5E-4BAA-87CE-5A4364B8D8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9ECEEA-3C5E-4BAA-87CE-5A4364B8D8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9ECEEA-3C5E-4BAA-87CE-5A4364B8D8C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

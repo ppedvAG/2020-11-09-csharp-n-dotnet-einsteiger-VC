@@ -218,7 +218,7 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach
 
 ---
 
-## M17 | DELEGATES & EVENTS
+## M18 | DELEGATES & EVENTS
 
 - [ ] Folien: C# > Delegates
 - [ ] custom delegates
