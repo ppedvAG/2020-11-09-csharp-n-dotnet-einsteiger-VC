@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -47,13 +48,25 @@ namespace M10_Demo_FileAccess_Und_Serializierung
         {
             // mit relativem Pfad
             // StreamWriter streamWriter = new StreamWriter("TransportAlsString.txt");
+
             // mit absolutem Pfad
-            streamWriter = new StreamWriter("C:\\Users\\vn3\\Desktop\\TransportAlsString.txt");
-            
-            // Environment.GetEnvironmentVariables(); // \%userprofile% // todo
-            // StreamWriter streamWriter = new StreamWriter("\\Desktop\\TransportDurchUserProfile.txt");
+            // streamWriter = new StreamWriter("C:\\Users\\vn3\\Desktop\\TransportAlsString.txt");
+
+            #region userprofile
+            // mit Umgebungsvariable userprofile
+            // var envVars = Environment.GetEnvironmentVariables(); // \%userprofile% //
+            //Console.WriteLine($"envVars: {envVars}"); // Hashtable
+            //foreach (DictionaryEntry pair in envVars)
+            //{
+            //    // Console.WriteLine($"pair: {pair}"); // DictionaryEntry
+            //    Console.WriteLine($"pair.Key: {pair.Key}, pair.Value: {pair.Value}");
+            //}
+            // Console.WriteLine(Environment.GetEnvironmentVariables()["USERPROFILE"]);
+            string filePath = Environment.GetEnvironmentVariables()["USERPROFILE"] + "\\Desktop\\TransportDurchUserProfile.txt";
+            StreamWriter streamWriter = new StreamWriter(filePath);
             streamWriter.WriteLine(transportmittel.BeschreibeMich());
             streamWriter.Close();
+            #endregion userprofile
         }
 
         private void button4_Click(object sender, EventArgs e)
