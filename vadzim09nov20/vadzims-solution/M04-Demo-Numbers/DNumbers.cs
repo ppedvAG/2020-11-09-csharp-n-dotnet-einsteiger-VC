@@ -60,15 +60,50 @@ namespace M04_Demo_Numbers
 
             // ====================================================
             Console.WriteLine("\nString zu Double parsen");
-            Console.WriteLine("Geben Sie einen DoubleWert ein: ");
-            double d3 = double.Parse(Console.ReadLine());
-            Console.WriteLine($"d3: {d3}"); // bei 3.4 -> 34
+            //Console.WriteLine("\nGeben Sie einen DoubleWert ein: ");
+            //double d3 = double.Parse(Console.ReadLine());
+            //Console.WriteLine($"d3: {d3}"); 
+            // bei 3.4 -> 34
+            // bei 3,4 -> 3,4
 
-            Console.WriteLine("Geben Sie noch einen DoubleWert mit Punktnotation ein: ");
-            double d4 = double.Parse(Console.ReadLine(), System.Globalization.CultureInfo.InvariantCulture);
-            Console.WriteLine($"d4: {d4}");
+            //Console.WriteLine("\nParse & Culture");
+            //Console.WriteLine("Geben Sie noch einen DoubleWert mit Punktnotation ein: ");
+            //double d4 = double.Parse(Console.ReadLine(), System.Globalization.CultureInfo.InvariantCulture);
+            //Console.WriteLine($"d4: {d4}");
+            // bei 3.4 -> 3,4 
+            // bei 3,4 -> 34
+            // Bei default benutzt Parse() CurrentCulture
 
+            //Console.WriteLine("\nConvert.ToDouble()");
+            //Console.WriteLine("Geben Sie noch einen DoubleWert mit Punktnotation ein: ");
+            //double d5 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine($"d5: {d5}"); 
+            // bei 3.4 -> 34
+            // bei 3,4 -> 3,4
 
+            #region DoubleKommaPunkt
+            // - Frage von Peter: 
+            // - wie kann ich Strings sowohl mit Punkt als auch mit Komma in ein Double parsen
+            Console.WriteLine("\ndouble.TryParse()");
+            Console.WriteLine("Geben Sie noch einen DoubleWert ein: ");
+            double d6;
+            var input = Console.ReadLine();
+            Console.WriteLine($"input: {input}");
+            // - TryParse() liefert true zurück, wenn beim Parse() ein double rauskommen würde
+            // - TryParse() liefert true sowohl bei 3,4, als auch bei 3.4
+            if (double.TryParse(input, out d6))
+            {
+                if (input.Contains('.'))
+                    d6 = double.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
+                else
+                    d6 = double.Parse(input);
+            }
+            else
+            {
+                Console.WriteLine("Es war keine Zahl mit Punkt- oder Kommanotation");
+            }
+            Console.WriteLine($"d6: {d6}");
+            #endregion DoubleKommaPunkt
 
             // ====================================================
             // todo double / double ??? von Nico
@@ -77,7 +112,7 @@ namespace M04_Demo_Numbers
             //double double1 = 4.4;
             //if (i1 > d1)
             //{​​​​
-                 // double i1AsDouble = (double)int1;
+            // double i1AsDouble = (double)int1;
 
             //    v2 = i1AsDouble / double1;
             //}​​​​
