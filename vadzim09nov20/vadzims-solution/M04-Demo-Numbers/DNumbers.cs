@@ -81,43 +81,77 @@ namespace M04_Demo_Numbers
             // bei 3.4 -> 34
             // bei 3,4 -> 3,4
 
+            // ====================================================
             #region DoubleKommaPunkt
-            // - Frage von Peter: 
-            // - wie kann ich Strings sowohl mit Punkt als auch mit Komma in ein Double parsen
-            Console.WriteLine("\ndouble.TryParse()");
-            Console.WriteLine("Geben Sie noch einen DoubleWert ein: ");
-            double d6;
-            var input = Console.ReadLine();
-            Console.WriteLine($"input: {input}");
-            // - TryParse() liefert true zurück, wenn beim Parse() ein double rauskommen würde
-            // - TryParse() liefert true sowohl bei 3,4, als auch bei 3.4
-            if (double.TryParse(input, out d6))
+            //// - Frage von Peter: 
+            //// - wie kann ich Strings sowohl mit Punkt als auch mit Komma in ein Double parsen
+            //Console.WriteLine("\ndouble.TryParse()");
+            //Console.WriteLine("Geben Sie noch einen DoubleWert ein: ");
+            //double d6;
+            //var input = Console.ReadLine();
+            //Console.WriteLine($"input: {input}");
+            //// - TryParse() liefert true zurück, wenn beim Parse() ein double rauskommen würde
+            //// - TryParse() liefert true sowohl bei 3,4, als auch bei 3.4
+            //if (double.TryParse(input, out d6))
+            //{
+            //    if (input.Contains('.'))
+            //        d6 = double.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
+            //    else
+            //        d6 = double.Parse(input);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Es war keine Zahl mit Punkt- oder Kommanotation");
+            //}
+            //Console.WriteLine($"d6: {d6}");
+            #endregion DoubleKommaPunkt
+
+
+
+            // ====================================================
+            #region DoublesDivision
+            // - Frage von von Nico:
+            // - double / double ??? 
+            // Console.WriteLine("\nDouble divided through double");
+            var v2 = 0;
+            int int1 = 4;
+            double double1 = 4.4;
+            // - Funktioniert der /-Operator überhaupt mit double?            
+            // v2 = int1 / double1; // Der Typ 'double' kann nicht implizit zu 'int' konvertiert werden
+
+            // - int durch double, konvertiert zu int:
+            // v2 = int1 / (int)double1; // Funktioniert, v2 ist gleich 1
+
+            // - int, konvertiert zu double, geteilt durch double:
+            // v2 = (double)int1 / double1; // Der Typ 'double' kann nicht implizit zu 'int' konvertiert werden
+            // Console.WriteLine($"v2: {v2}");
+
+            // - es liegt daran, dass die Variable v2 als 'int' durch den Wert 0 initialisiert wurde.
+            // - Das heißt, der Datentyp darf sogar bei 'var'-Variablen nach dem ersten Initialisieren 
+            // nicht mehr geändert werden, nur durch Konvertieren.
+
+            var var3 = 0.0;
+            // var3 = (double)int1 / double1; // Funktioniert. Konvertierung ist redundant, weil int zu double wird implizit konvertiert
+            var3 = int1 / double1;
+            // Console.WriteLine($"var3: {var3}"); // 0,9090909090909091
+            #endregion DoublesDivision
+
+
+            #region VergleichIntDouble
+            Console.WriteLine("\nVergleich Int Double");
+            // Was passiert beim Vergleich von verschiedenen Datentypen?
+            // int kann implizit zu double umgewandelt werden, was hier auch durchgeführt wurde, 
+            // um beide Zahlen zu vergleichen
+            if (int1 <= double1) // Intellisense: bool double.operator <=(double left, double right)
             {
-                if (input.Contains('.'))
-                    d6 = double.Parse(input, System.Globalization.CultureInfo.InvariantCulture);
-                else
-                    d6 = double.Parse(input);
+                Console.WriteLine("true block");
             }
             else
             {
-                Console.WriteLine("Es war keine Zahl mit Punkt- oder Kommanotation");
+                Console.WriteLine("false block");
             }
-            Console.WriteLine($"d6: {d6}");
-            #endregion DoubleKommaPunkt
+            #endregion VergleichIntDouble
 
-            // ====================================================
-            // todo double / double ??? von Nico
-            //var v2 = 0;
-            //int int1 = 4;
-            //double double1 = 4.4;
-            //if (i1 > d1)
-            //{​​​​
-            // double i1AsDouble = (double)int1;
-
-            //    v2 = i1AsDouble / double1;
-            //}​​​​
-            // else {​​​​ v2 = ((double)double1) / ((double)int1); }​​​​ 
-            //Console.WriteLine(v2);
 
             Console.ReadLine();
         }
