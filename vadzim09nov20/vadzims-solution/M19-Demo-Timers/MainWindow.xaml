@@ -1,0 +1,15 @@
+﻿<Window x:Class="M19_Demo_Timers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:M19_Demo_Timers"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="secondsTxtBx" HorizontalAlignment="Left" FontSize="30" Height="60" Margin="80,85,0,0" TextWrapping="Wrap" Text="Sekunden" VerticalAlignment="Top" Width="160"/>
+        <Button x:Name="startBtn" Content="Start" FontSize="30" HorizontalAlignment="Left" Height="60" Margin="280,85,0,0" VerticalAlignment="Top" Width="110" Click="startBtn_Click"/>
+        <TextBlock x:Name="ausgabeTxtBlck" FontSize="30" HorizontalAlignment="Left" Height="60" Margin="450,85,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="175"/>
+
+    </Grid>
+</Window>
