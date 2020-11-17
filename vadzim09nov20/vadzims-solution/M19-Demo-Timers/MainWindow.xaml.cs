@@ -1,19 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Timers;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace M19_Demo_Timers
 {
@@ -22,44 +9,30 @@ namespace M19_Demo_Timers
     /// </summary>
     public partial class MainWindow : Window
     {
-        private System.Timers.Timer timer = new System.Timers.Timer();
+        DispatcherTimer timer = new DispatcherTimer
+        {
+            Interval = TimeSpan.FromSeconds(1)
+        };
         public MainWindow()
         {
             InitializeComponent();
-            Console.WriteLine($"{Thread.CurrentThread.ManagedThreadId}");
-            timer.Elapsed += new ElapsedEventHandler(Countdown);
-            Console.WriteLine($"{Thread.CurrentThread.ManagedThreadId}");
-            timer.Interval = 1000;
-            timer.Start();
         }
-
+        int seconds;
         private void startBtn_Click(object sender, RoutedEventArgs e)
         {
-            timer.Elapsed += new ElapsedEventHandler(Countdown);
-            Console.WriteLine($"{Thread.CurrentThread.ManagedThreadId}");
-            timer.Interval = 1000;
+            seconds = int.Parse(secondsTxtBx.Text);
+            timer.Tick += Countdown;
             timer.Start();
         }
-        //Invoke(() =>
-        //{
-        //    int seconds = int.Parse(secondsTxtBx.Text);
-        //    return true;
-        //});
-        void Countdown(object sender, ElapsedEventArgs args)
+        void Countdown(object sender, EventArgs args)
         {
-            // Timers laufen in einem anderen Thread, 
-            // welches auf die Steuerelemente von der Oberfläche nicht zugreifen kann
-            //invoke(new Action(
-            //    () =>
-            //    {
-            //        int seconds = int.Parse(secondsTxtBx.Text);
-            //    }));
-            int seconds = int.Parse(secondsTxtBx.Text);
             seconds--;
             ausgabeTxtBlck.Text = seconds.ToString();
-            if (seconds <= 0)
+            if (seconds == 0)
             {
                 timer.Stop();
+                timer.Tick -= Countdown; // sonst wird bei jedem neuen Klick Countdown zweimal, dreimal usw ausgeführt
+
             }
         }
 
