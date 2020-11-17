@@ -145,18 +145,18 @@ VS Settings: sln props > startup projects > current
 
 ## M12 | INHERITENCE
 
-- [ ] Folien: C# > Inheritence
+- [x] Folien: C# > Inheritence
+- [x] abstract methods
+- [x] Polymorphysm
+- [ ] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/2dda500f0ab122e914c7e86800f94e7239196048)
 - [ ] Demo: [virtual](vadzims-solution/D-M11-Inheritence/Superklasse.cs) & override methods
 - [ ] Demo: [override](vadzims-solution/D-M11-Inheritence/Subklasse.cs)
-- [ ] abstract methods
-- [ ] Polymorphysm
-- [ ] [commit]()
 
 - [ ] Übung: [Flugzeug](vadzims-solution/Ü-M11-Inheritence/Flugzeug.cs)
 - [ ] Übung: [PKW](vadzims-solution/Ü-M11-Inheritence/PKW.cs)
 - [ ] Übung: [Schiff](vadzims-solution/Ü-M11-Inheritence/Schiff.cs)
 - [ ] Übung: [static methods](vadzims-solution/Ü-M11-Inheritence/Schiff.cs#static)
-- [ ] [commit]()
+- [ ] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/c42995bee5e0263e18c1d1e7ab7208601af4ed77)
 - [ ] 
  
 ---
@@ -188,7 +188,8 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach
 
 ## M15 | GENERIC DATA STRUCTURES
 
-- [ ] Folien: C# > Generic Data Structures
+- [x] Folien: C# > Generic Data Structures
+<!--
 - [ ] Demo: [List`<T>`](vadzims-solution/D-M14-GenericStructures/Program.cs)
 - [ ] [Stack`<T>`](/M8GenericDataStructures/MyStack.cs)
 - [ ] [Queue`<T>`](/M8GenericDataStructures/MyQueue.cs)
@@ -196,47 +197,48 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach
 - [ ] [Dictionary`<T1, T2>`](/M8GenericDataStructures/MyDictionary.cs)
 - [ ] [Ü Passagierliste](/M5Fuhrpark/FuhrparkApp.cs)
 - [ ] [commit]()
-
+-->
 ---
 
 ## M16 | Entity Framework Core
 
-- [ ] ORM
-- [ ] DBContext
-- [ ] DBSet & Entities
+- [x] ORM
+- [x] DBContext
+- [x] DBSet & Entities
+<!--
 - [ ] [Demo ](CS-GK-DUS-V/M19-Demo-Entity-Framework/EFDbContext.cs)
-
-[commit]()
-
+- [ ] [commit]()
+-->
 ---
 
 ## M17 | ENUMS
 
-- [ ] Demo:
-- [ ] Übung:
-- [ ] [Commit]()
+- [x] [Demo](vadzims-solution/M17-Demo-Enumeratoren/MainWindow.xaml.cs) 
+- [x] Übung [km, meilen Enumerator](vadzims-solution/M09-UE-Fuhrpark-Bibliothek/Transportmittel.cs)
+- [x] [Commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/9ebe94727562e260c434315954a57e98cda042c6)
 
 ---
 
 ## M18 | DELEGATES & EVENTS
 
-- [ ] Folien: C# > Delegates
-- [ ] custom delegates
-- [ ] built-in delegates
-- [ ] event handler
-- [ ] Demo: [Delegates](vadzims-solution/D-M16-Delegates/Form1.cs)
-- [ ] Demo: [anonumous functions](vadzims-solution/D-M16-Delegates/Program.cs)
-- [ ] [commit]()
+- [x] Folien: C# > Delegates
+- [x] custom delegates
+- [x] built-in delegates
+- [x] event handler
+- [x] Demo: [Delegates, anonumous functions](vadzims-solution/M18-Demo-Delegates/MainWindow.xaml.cs)
+- [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/5fbac01c9761e7d9297ec1d09c07d0988cf4d30c)
 
 
-## M18 | Timing Klassen
+## M19 | Timing Klassen
 
-- [ ] [Klasse Timing](CS-GK-DUS-V/M17-Demo-Timing/Form1.cs)
-- [ ] [Klasse Stopwatch](M15Demo-Timing/Form1.cs#Stopwatch)
+- [x] Demo [DispatcherTimer](vadzims-solution/M19-Demo-Timers/MainWindow.xaml.cs)
+- [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/4c618dab7265534259fb8b537b321928169a209b)
+<!--
 - [ ] [Ü kollidierende Buttons mit Timing]
+- [ ] [Klasse Stopwatch](M15Demo-Timing/Form1.cs#Stopwatch)
+-->
 
-[commit]()
-
+<!--
 ---
 
 ## M16 | WINDOWS FORMS
@@ -254,7 +256,7 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach
 
 - [ ] Demo: [HttpClient & deserialize](vadzims-solution/D-M10-HttpClient/DHttpClient.cs)
 
-<!--
+
 Ü Einfacher Taschenrechner?
 
 Ü Anmeldeformular? / Gästeliste?
