@@ -148,17 +148,16 @@ VS Settings: sln props > startup projects > current
 - [x] Folien: C# > Inheritence
 - [x] abstract methods
 - [x] Polymorphysm
-- [ ] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/2dda500f0ab122e914c7e86800f94e7239196048)
+- [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/2dda500f0ab122e914c7e86800f94e7239196048)
+- [x] Übung: [Flugzeug](vadzims-solution/M09-UE-Fuhrpark-Bibliothek/Flugzeug.cs)
+- [x] Übung: [PKW](vadzims-solution/M09-UE-Fuhrpark-Bibliothek/PKW.cs)
+- [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/c42995bee5e0263e18c1d1e7ab7208601af4ed77)
+<!--
 - [ ] Demo: [virtual](vadzims-solution/D-M11-Inheritence/Superklasse.cs) & override methods
 - [ ] Demo: [override](vadzims-solution/D-M11-Inheritence/Subklasse.cs)
-
-- [ ] Übung: [Flugzeug](vadzims-solution/Ü-M11-Inheritence/Flugzeug.cs)
-- [ ] Übung: [PKW](vadzims-solution/Ü-M11-Inheritence/PKW.cs)
 - [ ] Übung: [Schiff](vadzims-solution/Ü-M11-Inheritence/Schiff.cs)
 - [ ] Übung: [static methods](vadzims-solution/Ü-M11-Inheritence/Schiff.cs#static)
-- [ ] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/c42995bee5e0263e18c1d1e7ab7208601af4ed77)
-- [ ] 
- 
+--> 
 ---
 
 ## M13 | Exception-Handling​
