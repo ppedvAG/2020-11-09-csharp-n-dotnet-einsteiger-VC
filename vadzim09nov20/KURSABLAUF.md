@@ -2,12 +2,11 @@
 
 ## M00 | WARMING UP
 
-
 - [x] Folien: Greeter
 - [x] Link: [VS homepage](https://visualstudio.microsoft.com/de/)
 - [x] Folien: VS > Getting Started
 - [x] Folien: VS > Projects & Solutions
-- [x] Spicker: [shortcuts VS](/SPICKER/SHORTCUTS-VS.md)
+- [x] Spicker: [shortcuts VS](SPICKER/SHORTCUTS-VS.md)
 - [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/f5aa69f7e5a5519cf556db152b4d5d1e541bb765)
 <!-- - [ ] Folien: Git > Getting Started -->
 
@@ -36,7 +35,7 @@ VS Settings: Tools > Options > Debugging > Automatically close console when debu
 
 - [x] Demo: [Console](vadzims-solution/M01-Demo-Console/DConsole.cs)
 - [x] Variables, Zuweisungsoperator
-- [ ] Demo: [Scopes](vadzims-solution/M02-Demo-Scopes/DScopes.cs)
+- [x] Demo: [Scopes](vadzims-solution/M02-Demo-Scopes/DScopes.cs)
 - [x] [commit](https://github.com/ppedvAG/2020-11-09-csharp-n-dotnet-einsteiger-VC/commit/13ba07aec15dacef658ceb742c7bc0fb67a6cb2b)
 
 VS Settings: sln props > startup projects > current
